@@ -10,9 +10,9 @@ export function Footer() {
           {/* Logo and Description */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img 
-                src="https://res.cloudinary.com/dyxzfofp8/image/upload/v1773877577/Logo_Instagram_2_zdhn37.png" 
-                alt="Logo Parroquia Asunción" 
+              <img
+                src="https://res.cloudinary.com/dyxzfofp8/image/upload/v1773877577/Logo_Instagram_2_zdhn37.png"
+                alt="Logo Parroquia Asunción"
                 className="w-10 h-10 object-contain"
               />
               <span className="text-xl">Asunción de Nuestra Señora</span>
@@ -46,6 +46,16 @@ export function Footer() {
                   className="hover:text-white transition-colors"
                 >
                   Servicios
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/@parroquiaasuncionsde/live"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  Youtube en Vivo
                 </a>
               </li>
               <li>
